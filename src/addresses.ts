@@ -121,6 +121,17 @@ const SEPOLIA_ADDRESSES: ChainAddresses = {
   tickLensAddress: '0xd7f33bcdb21b359c8ee6f0251d30e94832baad07'
 }
 
+// plume v3 addresses
+const PLUME_ADDRESSES: ChainAddresses = {
+  v3CoreFactoryAddress: '0xAAdaF3fa772C1e68053949a1a0eE838bf8BF39b4',
+  multicallAddress: '0x80DAF9f655ac826f578bF86Ec92b1866Bc1C2321',
+  quoterAddress: '0x950Ce05faAD8E65b682C132323492Ba23446cEf0',
+  v3MigratorAddress: '0x9E43caEDb73e838308d5F6C92A62FA8eF033f51B',
+  nonfungiblePositionManagerAddress: '0x38537C231768634B4439123dE44Fc0533c250ba4',
+  tickLensAddress: '0x94D6AcF8D30DB3046fB4a00ae49Dcfd6d0dBe794',
+  swapRouter02Address: '0x559D5213177e6EC08B7322930320Da671a6628c0'
+}
+
 // Avalanche v3 addresses
 const AVALANCHE_ADDRESSES: ChainAddresses = {
   v3CoreFactoryAddress: '0x740b1c1de25031C31FF4fC9A62f554A55cdC1baD',
@@ -167,6 +178,7 @@ export const CHAIN_TO_ADDRESSES_MAP: Record<SupportedChainsType, ChainAddresses>
   [ChainId.ARBITRUM_GOERLI]: ARBITRUM_GOERLI_ADDRESSES,
   [ChainId.SEPOLIA]: SEPOLIA_ADDRESSES,
   [ChainId.AVALANCHE]: AVALANCHE_ADDRESSES,
+  [ChainId.PLUME]: PLUME_ADDRESSES,
   [ChainId.BASE]: BASE_ADDRESSES,
   [ChainId.BASE_GOERLI]: BASE_GOERLI_ADDRESSES
 }
