@@ -1,5 +1,5 @@
 {
-  "name": "@0x590fab/sdk-core",
+  "name": "sdk-core",
   "license": "MIT",
   "version": "4.0.8",
   "description": "⚒️ An SDK for building applications on top of Uniswap V3",
